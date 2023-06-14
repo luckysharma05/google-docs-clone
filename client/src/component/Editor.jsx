@@ -102,6 +102,7 @@ const Editor = () => {
         socket && socket.once('load-document', document => {
             quill && quill.setContents(document.data);
             setInputTitle(document.title);
+            console.log(document.title);
             quill && quill.enable();
         })
         socket && socket.emit('get-document', id);
