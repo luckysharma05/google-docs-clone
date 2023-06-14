@@ -1,0 +1,50 @@
+
+
+.container {
+  width: 60%;
+  background: #FFF;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  margin: 10px auto 10px 200px !important;
+  min-height: 100vh;
+  float: left;
+}
+
+.ql-toolbar.ql-snow {
+  display:flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #F3F3F3;
+  border: none !important;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+}
+
+.table {
+  cursor: pointer;
+  /* Add your icon styles here */
+  /* background: rgba(27, 231, 12, 0.5); */
+  height: 55px;
+  width: 55px;
+  margin: 10px 270px auto auto;
+  float: right;
+  /* border-radius: 70px; */
+}
+
+.button {
+  margin: 15px 10px 10px 53%;
+  background-color: #c2e7ff;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 20px;
+}
+
+.title {
+  margin: 15px 10px 10px 110px;
+  border-radius: 10px;
+}
+
+.titleBar {
+  display: flex;
+}
