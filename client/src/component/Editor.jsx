@@ -56,6 +56,7 @@ const Editor = () => {
     }, []);
 
     useEffect(() => {
+        console.log("Break");
         const socketServer = io('http://google-docs-clone-api.vercel.app');
         setSocket(socketServer);
 
