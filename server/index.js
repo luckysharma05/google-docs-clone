@@ -13,10 +13,6 @@ Connection(URL);
 
 const app = express();
 
-if(process.env.NODE_ENV === 'production'){
-    app.use(express.static("client/build"));
-}
-
 const httpServer = createServer(app);
 httpServer.listen(PORT);
 
