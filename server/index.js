@@ -7,7 +7,7 @@ import { createServer } from 'http';
 
 const PORT = process.env.PORT || 9000; 
 
-const URL = process.env.MONGODB_URI || 'mongodb://lucky:lucky@ac-ugx1h2q-shard-00-00.rbcbab1.mongodb.net:27017,ac-ugx1h2q-shard-00-01.rbcbab1.mongodb.net:27017,ac-ugx1h2q-shard-00-02.rbcbab1.mongodb.net:27017/GOOGLE-DOCS-CLONE?ssl=true&replicaSet=atlas-ey0ipa-shard-0&authSource=admin&retryWrites=true&w=majority';
+const URL = process.env.MONGODB_URI || 'mongodb://lucky:lucky@ac-ugx1h2q-shard-00-00.rbcbab1.mongodb.net:27017,ac-ugx1h2q-shard-00-01.rbcbab1.mongodb.net:27017,ac-ugx1h2q-shard-00-02.rbcbab1.mongodb.net:27017/?ssl=true&replicaSet=atlas-ey0ipa-shard-0&authSource=admin&retryWrites=true&w=majority';
 
 Connection(URL);
 
