@@ -57,7 +57,8 @@ const Editor = () => {
 
     useEffect(() => {
         console.log("Break");
-        const socketServer = io('https://google-docs-clone-api2.onrender.com');
+        // const socketServer = io('https://google-docs-clone-api2.onrender.com');
+        const socketServer = io('https://my-appy.adaptable.app');
         setSocket(socketServer);
 
         return () => {
