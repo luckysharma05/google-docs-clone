@@ -12,11 +12,11 @@ const URL = process.env.MONGODB_URI || 'mongodb://lucky:lucky@ac-ugx1h2q-shard-0
 Connection(URL);
 
 const app = express();
-
 const httpServer = createServer(app);
 httpServer.listen(PORT);
-
 const io = new Server(httpServer);
+
+
 // const io = new Server(PORT, {
 //     cors: {
 //         origin: 'http://localhost:3000',
